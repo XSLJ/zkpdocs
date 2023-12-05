@@ -1,0 +1,27 @@
+{
+  "name": "@zkp-docs/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve"
+  },
+  "keywords": [],
+  "author": "zhangkaipeng",
+  "license": "ISC",
+  "devDependencies": {
+    "flexsearch": "^0.7.31",
+    "markdown-it": "^13.0.1",
+    "vite-plugin-markdown-preview": "^1.1.1",
+    "vitepress": "1.0.0-alpha.63",
+    "vitepress-plugin-search": "1.0.4-alpha.19",
+    "vitepress-theme-demoblock": "^2.0.2"
+  },
+  "dependencies": {
+    "@zkp-docs/examples": "workspace:^0.0.1",
+    "vite": "^4.4.9"
+  }
+}

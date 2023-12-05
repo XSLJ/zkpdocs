@@ -1,0 +1,52 @@
+{
+  "name": "zkp-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @zkp-docs/docs docs:dev",
+    "build": "pnpm --filter @zkp-docs/docs docs:build",
+    "com:dev": "pnpm --filter @zkp-docs/examples dev",
+    "com:build": "pnpm --filter @zkp-docs/examples build",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@unocss/reset": "^0.57.7",
+    "animate.css": "^4.1.1",
+    "ant-design-vue": "^3.2.20",
+    "axios": "^1.6.2",
+    "element-plus": "^2.4.2",
+    "sortablejs": "^1.15.0",
+    "three": "^0.151.3",
+    "vue": "^3.3.8",
+    "vue3-seamless-scroll": "^2.0.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.37.0",
+    "@types/node": "^18.18.12",
+    "@types/sortablejs": "^1.15.7",
+    "@types/three": "^0.150.2",
+    "@unocss/preset-rem-to-px": "^0.57.7",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue-macros/volar": "^0.9.8",
+    "eslint": "^8.54.0",
+    "less": "^4.2.0",
+    "rollup-plugin-visualizer": "^5.9.2",
+    "sass": "^1.69.5",
+    "typescript": "^4.9.5",
+    "unocss": "^0.50.8",
+    "unocss-preset-extra": "^0.4.3",
+    "unplugin-auto-import": "^0.14.4",
+    "unplugin-icons": "^0.15.3",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.5.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-markdown-preview": "^1.1.1",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-tsc": "^1.8.22"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "hash": "d5d15aa0",
+  "browserHash": "df5c0073",
+  "optimized": {
+    "ant-design-vue": {
+      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+ant-design-vue@3.2.20_vue@3.3.8/node_modules/ant-design-vue/es/index.js",
+      "file": "ant-design-vue.js",
+      "fileHash": "ed3c1094",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+element-plus@2.4.2_vue@3.3.8/node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "df74b47e",
+      "needsInterop": false
+    },
+    "sortablejs": {
+      "src": "../../../../node_modules/.pnpm/sortablejs@1.15.0/node_modules/sortablejs/modular/sortable.esm.js",
+      "file": "sortablejs.js",
+      "fileHash": "857843da",
+      "needsInterop": false
+    },
+    "vue3-seamless-scroll": {
+      "src": "../../../../node_modules/.pnpm/vue3-seamless-scroll@2.0.1/node_modules/vue3-seamless-scroll/dist/vue3-seamless-scroll.es.js",
+      "file": "vue3-seamless-scroll.js",
+      "fileHash": "c48ee6b4",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vue@3.3.8_typescript@4.9.5/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "7ab5554b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-NA3HALUQ": {
+      "file": "chunk-NA3HALUQ.js"
+    },
+    "chunk-LKNPXWZI": {
+      "file": "chunk-LKNPXWZI.js"
+    },
+    "chunk-5WWUZCGV": {
+      "file": "chunk-5WWUZCGV.js"
+    }
+  }
+}

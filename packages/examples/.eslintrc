@@ -1,0 +1,19 @@
+{
+  // @antfu/eslint-config 预设了很多规则，  无需.eslintignore文件
+  "extends": ["@antfu", "./.eslintrc-auto-import.json"],
+  "rules": {
+    // 允许console
+    "no-console": "off",
+    // 允许跳过ts类型检查  @ts-ignore等
+    "@typescript-eslint/ban-ts-comment": 0,
+    "vue/component-name-in-template-casing": 0,
+    "no-new": 0,
+    "no-debugger": 0,
+    "vue/singleline-html-element-content-newline": 0,
+    "unused-imports/no-unused-imports": 1,
+    // 箭头函数一个参数可以不用加括号
+    "arrow-parens": 0
+    // "curly": 0
+    // "vue/html-self-closing": 0
+  }
+}
