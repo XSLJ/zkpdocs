@@ -23,7 +23,8 @@ git add -A
 git commit -m 'deploy'
 
 # 如果部署到 https://<USERNAME>.github.io
-git push -f https://gitee.com/z-k-p/docs.git master:dev
+git push -f https://xslj.github.io/zkpdocs/
+# git push -f https://gitee.com/z-k-p/docs.git master:dev
 
 # 打包推送完成之后退出dist
 cd ..

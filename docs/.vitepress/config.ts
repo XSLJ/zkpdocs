@@ -25,7 +25,7 @@ export default defineConfig({
   // vite: {
   //   plugins: [MarkdownPreview()],
   // },
-  head: [['link', { rel: 'icon', href: '/lbxx.jpg' }]],
+  head: [['link', { rel: 'icon', href: 'lbxx.jpg' }]],
   markdown: {
     lineNumbers: true,
     config: md => {
