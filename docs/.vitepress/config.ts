@@ -6,7 +6,7 @@ import nav from './configs/nav/index'
 import sidebar from './configs/sliderbar'
 export default defineConfig({
   title: '给我一个div',
-  base: '/docs/',
+  base: '/zkpdocs',
   themeConfig: {
     siteTitle: '给我一个div', //文档标题
     logo: '/one-piece.jpg',
